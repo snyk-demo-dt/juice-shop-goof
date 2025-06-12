@@ -15,7 +15,6 @@ import * as utils from '../lib/utils'
 const security = require('../lib/insecurity')
 const challenges = require('../data/datacache').challenges
 const users = require('../data/datacache').users
-const examplevar = 1
 
 // vuln-code-snippet start loginAdminChallenge loginBenderChallenge loginJimChallenge
 module.exports = function login () {
